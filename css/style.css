@@ -1,0 +1,83 @@
+.head {
+    height:100vh;
+    width: 100%;
+    background: url('../image/fluid.jpg');
+    padding-top:50px;
+}
+.info {
+    margin-top:150px;
+    color: #fff;
+}
+.social-bar .icon {
+    margin-top:40px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px outset rgba(128, 128, 128, 0.5);
+    min-width: 57px;
+    line-height: 57px;
+    text-align: center;
+    font-size : 24px;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.5);
+}
+
+.social-bar a {
+    margin-right: 5px;
+    padding: 5px; /* Increase hit rectangle for touch devices */
+    color: #fff;
+}
+
+.social-bar a:first-child {
+    padding-left: 0;
+}
+
+/* Set icon color related to the service */
+
+.social-bar a span {
+    margin-left: 5px;
+    font-size : 24px;
+    text-decoration: none;
+}
+
+.social-bar .icon-rss {
+    background: #e5842f;
+}
+
+.social-bar .icon-facebook {
+    background: #3B5998;
+}
+
+.social-bar .icon-twitter {
+    background: #00ACED;
+}
+
+.social-bar .icon-google-plus {
+    background: #E14107;
+}
+.social-bar .icon-github {
+    background: #000;
+}
+
+/* Don't underline icon etc. */
+.social-bar a:hover {
+    text-decoration: none;
+}
+
+.social-bar a:hover span {
+    text-decoration: none;
+    color: #333333; /* Match icon highlight color */
+}
+
+/* Animate mouse hover */
+.social-bar a .icon {
+    transition: background 0.5s;
+}
+
+.social-bar a:hover .icon {
+    background: #333333;
+    transition: background 0.5s;
+    text-decoration: none;
+}
+
+.yellow {
+    background-color:yellow;
+}
